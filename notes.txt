@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/14333857/how-to-master-angularjs
+https://github.com/jmcunningham/AngularJS-Learning
+http://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes
+https://docs.angularjs.org/api

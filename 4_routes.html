@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="moduleTwo">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        <input type="text" ng-model="input_name" placeholder="type your name here" />
+        What's your name? {{ input_name }}
+        <br />
+        <ul ng-controller="NamesController">
+            <li ng-repeat="in_name in names | filter:input_name | orderBy:'name'">
+                {{ in_name.name | uppercase }} - {{ in_name.city | lowercase }}
+            </li>
+        </ul>
+    </div>
+
+    <!-- AngularJS Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+    <!-- Controller -->
+    <script src="js/moduleOne.js"></script>
+</body>
+</html>
