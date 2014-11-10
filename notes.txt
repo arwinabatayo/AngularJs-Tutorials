@@ -2,3 +2,25 @@ http://stackoverflow.com/questions/14333857/how-to-master-angularjs
 https://github.com/jmcunningham/AngularJS-Learning
 http://weblogs.asp.net/dwahlin/video-tutorial-angularjs-fundamentals-in-60-ish-minutes
 https://docs.angularjs.org/api
+
+// Folder Structure
+Root folder
+ - Modules
+   - Contact
+     - contact.js (Setup module/config/routes/directives/filters/(attach controller and service))
+     - contact.html
+     - ContactController.js
+     - ContactService.js
+   - About
+     - about.js
+     - about.html
+     - AboutController.js
+   - app.js
+   - index.html
+
+
+Routing & Multiple Views
+- https://docs.angularjs.org/tutorial/step_07
+
+Tutorials
+ - https://docs.angularjs.org/tutorial/
